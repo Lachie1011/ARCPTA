@@ -1,0 +1,1 @@
+/home/lachie/catkin_ws/devel/.private/point_cloud_io/share/point_cloud_io/cmake/point_cloud_ioConfig.cmake

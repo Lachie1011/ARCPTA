@@ -1,0 +1,1 @@
+/home/lachie/catkin_ws/devel/.private/kindr_msgs/share/roseus/ros/kindr_msgs/msg/VectorAtPosition.l

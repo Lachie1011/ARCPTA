@@ -1,0 +1,1 @@
+/home/lachie/catkin_ws/devel/.private/kindr_msgs/share/gennodejs/ros/kindr_msgs/msg/_index.js

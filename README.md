@@ -1,3 +1,0 @@
-# ARCPTA
-
-Hello World!

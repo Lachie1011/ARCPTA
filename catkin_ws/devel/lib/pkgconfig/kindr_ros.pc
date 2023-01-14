@@ -1,0 +1,1 @@
+/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/pkgconfig/kindr_ros.pc

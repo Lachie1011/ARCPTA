@@ -1,0 +1,1 @@
+/home/lachie/catkin_ws/devel/.private/kindr_ros/share/kindr_ros/cmake/kindr_rosConfig.cmake

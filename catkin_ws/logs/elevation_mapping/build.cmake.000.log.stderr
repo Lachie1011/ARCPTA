@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "grid_map_core"
+  with any of the following names:
+
+    grid_map_coreConfig.cmake
+    grid_map_core-config.cmake
+
+  Add the installation prefix of "grid_map_core" to CMAKE_PREFIX_PATH or set
+  "grid_map_core_DIR" to a directory containing one of the above files.  If
+  "grid_map_core" provides a separate development package or SDK, be sure it
+  has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:27 (find_package)
+
+

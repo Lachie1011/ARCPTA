@@ -1,0 +1,1 @@
+/home/lachie/catkin_ws/devel/.private/kindr_msgs/share/common-lisp/ros/kindr_msgs/msg/VectorAtPosition.lisp

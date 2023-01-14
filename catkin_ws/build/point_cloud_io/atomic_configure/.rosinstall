@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/lachie/catkin_ws/devel/.private/point_cloud_io/setup.sh
