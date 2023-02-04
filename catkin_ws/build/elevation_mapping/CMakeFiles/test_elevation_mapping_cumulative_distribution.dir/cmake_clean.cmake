@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/elevation_mapping/lib/elevation_mapping/test_elevation_mapping_cumulative_distribution"
-  "/home/lachie/catkin_ws/devel/.private/elevation_mapping/lib/elevation_mapping/test_elevation_mapping_cumulative_distribution.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping/lib/elevation_mapping/test_elevation_mapping_cumulative_distribution"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping/lib/elevation_mapping/test_elevation_mapping_cumulative_distribution.pdb"
   "CMakeFiles/test_elevation_mapping_cumulative_distribution.dir/test/ElevationMapTest.cpp.o"
   "CMakeFiles/test_elevation_mapping_cumulative_distribution.dir/test/WeightedEmpiricalCumulativeDistributionFunctionTest.cpp.o"
   "CMakeFiles/test_elevation_mapping_cumulative_distribution.dir/test/test_elevation_mapping.cpp.o"

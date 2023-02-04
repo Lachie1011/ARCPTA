@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/test_point_cloud_io"
-  "/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/test_point_cloud_io.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/test_point_cloud_io"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/test_point_cloud_io.pdb"
   "CMakeFiles/test_point_cloud_io.dir/test/empty_test.cpp.o"
 )
 

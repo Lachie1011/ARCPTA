@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lachie/catkin_ws/src/point_cloud_io
+CMAKE_SOURCE_DIR = /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lachie/catkin_ws/build/point_cloud_io
+CMAKE_BINARY_DIR = /home/lachie/ARCPTA/catkin_ws/build/point_cloud_io
 
 # Include any dependencies generated for this target.
 include CMakeFiles/read.dir/depend.make
@@ -58,30 +58,30 @@ include CMakeFiles/read.dir/progress.make
 include CMakeFiles/read.dir/flags.make
 
 CMakeFiles/read.dir/src/read_node.cpp.o: CMakeFiles/read.dir/flags.make
-CMakeFiles/read.dir/src/read_node.cpp.o: /home/lachie/catkin_ws/src/point_cloud_io/src/read_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/point_cloud_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/read.dir/src/read_node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/read.dir/src/read_node.cpp.o -c /home/lachie/catkin_ws/src/point_cloud_io/src/read_node.cpp
+CMakeFiles/read.dir/src/read_node.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/read_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/read.dir/src/read_node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/read.dir/src/read_node.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/read_node.cpp
 
 CMakeFiles/read.dir/src/read_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/read.dir/src/read_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/point_cloud_io/src/read_node.cpp > CMakeFiles/read.dir/src/read_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/read_node.cpp > CMakeFiles/read.dir/src/read_node.cpp.i
 
 CMakeFiles/read.dir/src/read_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/read.dir/src/read_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/point_cloud_io/src/read_node.cpp -o CMakeFiles/read.dir/src/read_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/read_node.cpp -o CMakeFiles/read.dir/src/read_node.cpp.s
 
 CMakeFiles/read.dir/src/Read.cpp.o: CMakeFiles/read.dir/flags.make
-CMakeFiles/read.dir/src/Read.cpp.o: /home/lachie/catkin_ws/src/point_cloud_io/src/Read.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/point_cloud_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/read.dir/src/Read.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/read.dir/src/Read.cpp.o -c /home/lachie/catkin_ws/src/point_cloud_io/src/Read.cpp
+CMakeFiles/read.dir/src/Read.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/Read.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/read.dir/src/Read.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/read.dir/src/Read.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/Read.cpp
 
 CMakeFiles/read.dir/src/Read.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/read.dir/src/Read.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/point_cloud_io/src/Read.cpp > CMakeFiles/read.dir/src/Read.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/Read.cpp > CMakeFiles/read.dir/src/Read.cpp.i
 
 CMakeFiles/read.dir/src/Read.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/read.dir/src/Read.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/point_cloud_io/src/Read.cpp -o CMakeFiles/read.dir/src/Read.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/Read.cpp -o CMakeFiles/read.dir/src/Read.cpp.s
 
 # Object files for target read
 read_OBJECTS = \
@@ -91,131 +91,131 @@ read_OBJECTS = \
 # External object files for target read
 read_EXTERNAL_OBJECTS =
 
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: CMakeFiles/read.dir/src/read_node.cpp.o
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: CMakeFiles/read.dir/src/Read.cpp.o
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: CMakeFiles/read.dir/build.make
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libpcl_ros_filter.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libpcl_ros_tf.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_search.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_features.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libqhull.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libnodeletlib.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libbondcpp.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_common.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_io.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonColor-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtksys-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonSystem-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersCore-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingCore-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersSources-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libfreetype.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libz.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingSources-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingColor-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOImage-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkmetaio-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libjpeg.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpng.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libtiff.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOXML-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOCore-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libexpat.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librosbag.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librosbag_storage.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libclass_loader.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libroslib.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librospack.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libroslz4.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libtopic_tools.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libtf.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libtf2_ros.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libactionlib.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libmessage_filters.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libtf2.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libroscpp.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librosconsole.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librostime.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libcpp_common.so
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: CMakeFiles/read.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lachie/catkin_ws/build/point_cloud_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read"
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: CMakeFiles/read.dir/src/read_node.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: CMakeFiles/read.dir/src/Read.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: CMakeFiles/read.dir/build.make
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libpcl_ros_filter.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libpcl_ros_tf.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libqhull.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libnodeletlib.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libbondcpp.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonColor-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtksys-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonSystem-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersCore-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingCore-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersSources-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libfreetype.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libz.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingSources-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingColor-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOImage-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkmetaio-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libjpeg.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpng.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libtiff.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOXML-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOCore-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libexpat.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librosbag.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librosbag_storage.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libclass_loader.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libroslib.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librospack.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libroslz4.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/liblz4.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libtopic_tools.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libtf.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libtf2_ros.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libactionlib.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libmessage_filters.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libtf2.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libroscpp.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librosconsole.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/librostime.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /opt/ros/noetic/lib/libcpp_common.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read: CMakeFiles/read.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/read.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/read.dir/build: /home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read
+CMakeFiles/read.dir/build: /home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read
 
 .PHONY : CMakeFiles/read.dir/build
 
@@ -224,6 +224,6 @@ CMakeFiles/read.dir/clean:
 .PHONY : CMakeFiles/read.dir/clean
 
 CMakeFiles/read.dir/depend:
-	cd /home/lachie/catkin_ws/build/point_cloud_io && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lachie/catkin_ws/src/point_cloud_io /home/lachie/catkin_ws/src/point_cloud_io /home/lachie/catkin_ws/build/point_cloud_io /home/lachie/catkin_ws/build/point_cloud_io /home/lachie/catkin_ws/build/point_cloud_io/CMakeFiles/read.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lachie/ARCPTA/catkin_ws/build/point_cloud_io && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io /home/lachie/ARCPTA/catkin_ws/build/point_cloud_io /home/lachie/ARCPTA/catkin_ws/build/point_cloud_io /home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/CMakeFiles/read.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/read.dir/depend
 

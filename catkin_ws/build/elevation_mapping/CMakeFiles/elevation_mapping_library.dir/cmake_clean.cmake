@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/elevation_mapping/lib/libelevation_mapping_library.pdb"
-  "/home/lachie/catkin_ws/devel/.private/elevation_mapping/lib/libelevation_mapping_library.so"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping/lib/libelevation_mapping_library.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping/lib/libelevation_mapping_library.so"
   "CMakeFiles/elevation_mapping_library.dir/src/ElevationMap.cpp.o"
   "CMakeFiles/elevation_mapping_library.dir/src/ElevationMapping.cpp.o"
   "CMakeFiles/elevation_mapping_library.dir/src/RobotMotionMapUpdater.cpp.o"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/kindr_msgs/include/kindr_msgs/VectorAtPosition.h"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_msgs/include/kindr_msgs/VectorAtPosition.h"
   "CMakeFiles/kindr_msgs_generate_messages_cpp"
 )
 

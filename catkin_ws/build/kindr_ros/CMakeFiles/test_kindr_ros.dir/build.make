@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lachie/catkin_ws/src/kindr_ros/kindr_ros
+CMAKE_SOURCE_DIR = /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lachie/catkin_ws/build/kindr_ros
+CMAKE_BINARY_DIR = /home/lachie/ARCPTA/catkin_ws/build/kindr_ros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_kindr_ros.dir/depend.make
@@ -58,82 +58,82 @@ include CMakeFiles/test_kindr_ros.dir/progress.make
 include CMakeFiles/test_kindr_ros.dir/flags.make
 
 CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o: CMakeFiles/test_kindr_ros.dir/flags.make
-CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o: /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o -c /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp
+CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp
 
 CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp > CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp > CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i
 
 CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp -o CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp -o CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s
 
 CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o: CMakeFiles/test_kindr_ros.dir/flags.make
-CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o: /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o -c /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp
+CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp
 
 CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i
 
 CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s
 
 CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o: CMakeFiles/test_kindr_ros.dir/flags.make
-CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o: /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o -c /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp
+CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp
 
 CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i
 
 CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s
 
 CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o: CMakeFiles/test_kindr_ros.dir/flags.make
-CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o: /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o -c /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp
+CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp
 
 CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i
 
 CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s
 
 CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o: CMakeFiles/test_kindr_ros.dir/flags.make
-CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o: /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o -c /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp
+CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp
 
 CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i
 
 CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s
 
 CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o: CMakeFiles/test_kindr_ros.dir/flags.make
-CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o: /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o -c /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp
+CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp
 
 CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp > CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp > CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i
 
 CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s
 
 # Object files for target test_kindr_ros
 test_kindr_ros_OBJECTS = \
@@ -147,42 +147,42 @@ test_kindr_ros_OBJECTS = \
 # External object files for target test_kindr_ros
 test_kindr_ros_EXTERNAL_OBJECTS =
 
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/build.make
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: gtest/lib/libgtest.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf2_ros.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libactionlib.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libmessage_filters.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libroscpp.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf2.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librostime.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libcpp_common.so
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lachie/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros"
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/build.make
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: gtest/lib/libgtest.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf2_ros.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libactionlib.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libmessage_filters.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libroscpp.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf2.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librostime.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libcpp_common.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros: CMakeFiles/test_kindr_ros.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_kindr_ros.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/test_kindr_ros.dir/build: /home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros
+CMakeFiles/test_kindr_ros.dir/build: /home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros
 
 .PHONY : CMakeFiles/test_kindr_ros.dir/build
 
@@ -191,6 +191,6 @@ CMakeFiles/test_kindr_ros.dir/clean:
 .PHONY : CMakeFiles/test_kindr_ros.dir/clean
 
 CMakeFiles/test_kindr_ros.dir/depend:
-	cd /home/lachie/catkin_ws/build/kindr_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lachie/catkin_ws/src/kindr_ros/kindr_ros /home/lachie/catkin_ws/src/kindr_ros/kindr_ros /home/lachie/catkin_ws/build/kindr_ros /home/lachie/catkin_ws/build/kindr_ros /home/lachie/catkin_ws/build/kindr_ros/CMakeFiles/test_kindr_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lachie/ARCPTA/catkin_ws/build/kindr_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros /home/lachie/ARCPTA/catkin_ws/build/kindr_ros /home/lachie/ARCPTA/catkin_ws/build/kindr_ros /home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles/test_kindr_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_kindr_ros.dir/depend
 

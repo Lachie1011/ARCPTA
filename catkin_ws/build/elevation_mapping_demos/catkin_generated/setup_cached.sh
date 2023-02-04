@@ -7,7 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/lachie/catkin_ws/devel/.private/elevation_mapping_demos:$CMAKE_PREFIX_PATH"
-export PWD='/home/lachie/catkin_ws/build/elevation_mapping_demos'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/lachie/catkin_ws/devel/.private/elevation_mapping_demos/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping_demos:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping_demos:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping_demos/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping_demos/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/lachie/ARCPTA/catkin_ws/build/elevation_mapping_demos'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping_demos/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping_demos:/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping_demos:$ROS_PACKAGE_PATH"

@@ -1,8 +1,8 @@
-# Install script for directory: /home/lachie/catkin_ws/src/point_cloud_io
+# Install script for directory: /home/lachie/ARCPTA/catkin_ws/src/point_cloud_io
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lachie/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lachie/ARCPTA/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,98 +49,98 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/lachie/catkin_ws/install/_setup_util.py")
+   "/home/lachie/ARCPTA/catkin_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/lachie/catkin_ws/install" TYPE PROGRAM FILES "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/lachie/ARCPTA/catkin_ws/install" TYPE PROGRAM FILES "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/lachie/catkin_ws/install/env.sh")
+   "/home/lachie/ARCPTA/catkin_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/lachie/catkin_ws/install" TYPE PROGRAM FILES "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/lachie/ARCPTA/catkin_ws/install" TYPE PROGRAM FILES "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/lachie/catkin_ws/install/setup.bash;/home/lachie/catkin_ws/install/local_setup.bash")
+   "/home/lachie/ARCPTA/catkin_ws/install/setup.bash;/home/lachie/ARCPTA/catkin_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/lachie/catkin_ws/install" TYPE FILE FILES
-    "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/setup.bash"
-    "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/lachie/ARCPTA/catkin_ws/install" TYPE FILE FILES
+    "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/setup.bash"
+    "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/lachie/catkin_ws/install/setup.sh;/home/lachie/catkin_ws/install/local_setup.sh")
+   "/home/lachie/ARCPTA/catkin_ws/install/setup.sh;/home/lachie/ARCPTA/catkin_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/lachie/catkin_ws/install" TYPE FILE FILES
-    "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/setup.sh"
-    "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/lachie/ARCPTA/catkin_ws/install" TYPE FILE FILES
+    "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/setup.sh"
+    "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/lachie/catkin_ws/install/setup.zsh;/home/lachie/catkin_ws/install/local_setup.zsh")
+   "/home/lachie/ARCPTA/catkin_ws/install/setup.zsh;/home/lachie/ARCPTA/catkin_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/lachie/catkin_ws/install" TYPE FILE FILES
-    "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/setup.zsh"
-    "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/lachie/ARCPTA/catkin_ws/install" TYPE FILE FILES
+    "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/setup.zsh"
+    "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/lachie/catkin_ws/install/.rosinstall")
+   "/home/lachie/ARCPTA/catkin_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/lachie/catkin_ws/install" TYPE FILE FILES "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/lachie/ARCPTA/catkin_ws/install" TYPE FILE FILES "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/point_cloud_io.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/point_cloud_io.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/point_cloud_io/cmake" TYPE FILE FILES
-    "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/point_cloud_ioConfig.cmake"
-    "/home/lachie/catkin_ws/build/point_cloud_io/catkin_generated/installspace/point_cloud_ioConfig-version.cmake"
+    "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/point_cloud_ioConfig.cmake"
+    "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/catkin_generated/installspace/point_cloud_ioConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/point_cloud_io" TYPE FILE FILES "/home/lachie/catkin_ws/src/point_cloud_io/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/point_cloud_io" TYPE FILE FILES "/home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,7 +150,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/point_cloud_io/read"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/point_cloud_io" TYPE EXECUTABLE FILES "/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/point_cloud_io" TYPE EXECUTABLE FILES "/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/point_cloud_io/read" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/point_cloud_io/read")
     file(RPATH_CHANGE
@@ -170,7 +170,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/point_cloud_io/write"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/point_cloud_io" TYPE EXECUTABLE FILES "/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/write")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/point_cloud_io" TYPE EXECUTABLE FILES "/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/write")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/point_cloud_io/write" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/point_cloud_io/write")
     file(RPATH_CHANGE
@@ -184,19 +184,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/point_cloud_io" TYPE DIRECTORY FILES "/home/lachie/catkin_ws/src/point_cloud_io/include/point_cloud_io/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/point_cloud_io" TYPE DIRECTORY FILES "/home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/include/point_cloud_io/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/point_cloud_io" TYPE DIRECTORY FILES
-    "/home/lachie/catkin_ws/src/point_cloud_io/examples"
-    "/home/lachie/catkin_ws/src/point_cloud_io/launch"
+    "/home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/examples"
+    "/home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/launch"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lachie/catkin_ws/build/point_cloud_io/gtest/cmake_install.cmake")
+  include("/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/gtest/cmake_install.cmake")
 
 endif()
 
@@ -208,5 +208,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lachie/catkin_ws/build/point_cloud_io/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lachie/ARCPTA/catkin_ws/build/point_cloud_io/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

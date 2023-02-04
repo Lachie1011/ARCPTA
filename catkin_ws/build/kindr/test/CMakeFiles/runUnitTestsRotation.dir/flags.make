@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -std=c++11 -std=c++11 -DGTEST_HAS_PTHREAD=1
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/lachie/catkin_ws/src/kindr/include -I/usr/include/eigen3 -I/home/lachie/catkin_ws/src/kindr/test/../include -I/home/lachie/catkin_ws/src/kindr/test/test -I/home/lachie/catkin_ws/src/kindr/test/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest 
+CXX_INCLUDES = -I/home/lachie/ARCPTA/catkin_ws/src/kindr/include -I/usr/include/eigen3 -I/home/lachie/ARCPTA/catkin_ws/src/kindr/test/../include -I/home/lachie/ARCPTA/catkin_ws/src/kindr/test/test -I/home/lachie/ARCPTA/catkin_ws/src/kindr/test/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest 
 

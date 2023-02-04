@@ -67,14 +67,14 @@ set(elevation_mapping_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(elevation_mapping_SOURCE_PREFIX /home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping)
-  set(elevation_mapping_DEVEL_PREFIX /home/lachie/catkin_ws/devel/.private/elevation_mapping)
+  set(elevation_mapping_SOURCE_PREFIX /home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping)
+  set(elevation_mapping_DEVEL_PREFIX /home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping)
   set(elevation_mapping_INSTALL_PREFIX "")
   set(elevation_mapping_PREFIX ${elevation_mapping_DEVEL_PREFIX})
 else()
   set(elevation_mapping_SOURCE_PREFIX "")
   set(elevation_mapping_DEVEL_PREFIX "")
-  set(elevation_mapping_INSTALL_PREFIX /home/lachie/catkin_ws/install)
+  set(elevation_mapping_INSTALL_PREFIX /home/lachie/ARCPTA/catkin_ws/install)
   set(elevation_mapping_PREFIX ${elevation_mapping_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(elevation_mapping_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include;/usr/include " STREQUAL " ")
+if(NOT "/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include;/usr/include " STREQUAL " ")
   set(elevation_mapping_INCLUDE_DIRS "")
-  set(_include_dirs "/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include;/usr/include")
+  set(_include_dirs "/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include;/usr/include")
   if(NOT "http://github.com/anybotics/elevation_mapping/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'http://github.com/anybotics/elevation_mapping/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://github.com/anybotics/elevation_mapping " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include;/
         message(FATAL_ERROR "Project 'elevation_mapping' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'elevation_mapping' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'elevation_mapping' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/${idir}'.  ${_report}")
     endif()
     _list_append_unique(elevation_mapping_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/lachie/catkin_ws/devel/.private/elevation_mapping/lib;/home/lachie/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping/lib;/home/lachie/ARCPTA/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

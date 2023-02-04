@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/message_logger/lib/libmessage_logger.pdb"
-  "/home/lachie/catkin_ws/devel/.private/message_logger/lib/libmessage_logger.so"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/message_logger/lib/libmessage_logger.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/message_logger/lib/libmessage_logger.so"
   "CMakeFiles/message_logger.dir/src/time/Time.cpp.o"
   "CMakeFiles/message_logger.dir/src/time/TimeStd.cpp.o"
 )

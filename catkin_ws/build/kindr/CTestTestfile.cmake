@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/lachie/catkin_ws/src/kindr
-# Build directory: /home/lachie/catkin_ws/build/kindr
+# Source directory: /home/lachie/ARCPTA/catkin_ws/src/kindr
+# Build directory: /home/lachie/ARCPTA/catkin_ws/build/kindr
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

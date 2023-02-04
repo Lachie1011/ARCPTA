@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/multi_dof_joint_trajectory_rviz_plugins/test_multi_dof_joint_trajectory_rviz_plugins"
-  "/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/multi_dof_joint_trajectory_rviz_plugins/test_multi_dof_joint_trajectory_rviz_plugins.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/multi_dof_joint_trajectory_rviz_plugins/test_multi_dof_joint_trajectory_rviz_plugins"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/multi_dof_joint_trajectory_rviz_plugins/test_multi_dof_joint_trajectory_rviz_plugins.pdb"
   "CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/test/EmptyTests.cpp.o"
 )
 

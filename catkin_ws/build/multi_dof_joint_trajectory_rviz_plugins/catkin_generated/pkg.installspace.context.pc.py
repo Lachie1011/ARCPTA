@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "rviz;trajectory_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lmulti_dof_joint_trajectory_rviz_plugins".split(';') if "-lmulti_dof_joint_trajectory_rviz_plugins" != "" else []
 PROJECT_NAME = "multi_dof_joint_trajectory_rviz_plugins"
-PROJECT_SPACE_DIR = "/home/lachie/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/lachie/ARCPTA/catkin_ws/install"
 PROJECT_VERSION = "0.3.10"

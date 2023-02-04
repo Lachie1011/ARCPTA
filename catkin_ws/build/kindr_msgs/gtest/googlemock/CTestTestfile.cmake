@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googlemock
-# Build directory: /home/lachie/catkin_ws/build/kindr_msgs/gtest/googlemock
+# Build directory: /home/lachie/ARCPTA/catkin_ws/build/kindr_msgs/gtest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

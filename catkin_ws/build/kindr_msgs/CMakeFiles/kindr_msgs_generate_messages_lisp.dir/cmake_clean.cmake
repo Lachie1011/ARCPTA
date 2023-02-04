@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/kindr_msgs/share/common-lisp/ros/kindr_msgs/msg/VectorAtPosition.lisp"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_msgs/share/common-lisp/ros/kindr_msgs/msg/VectorAtPosition.lisp"
   "CMakeFiles/kindr_msgs_generate_messages_lisp"
 )
 

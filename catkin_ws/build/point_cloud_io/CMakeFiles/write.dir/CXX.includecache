@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/lachie/catkin_ws/src/point_cloud_io/include/point_cloud_io/Write.hpp
+/home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/include/point_cloud_io/Write.hpp
 ros/ros.h
 -
 sensor_msgs/PointCloud2.h
 -
 
-/home/lachie/catkin_ws/src/point_cloud_io/src/Write.cpp
+/home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/Write.cpp
 point_cloud_io/Write.hpp
-/home/lachie/catkin_ws/src/point_cloud_io/src/point_cloud_io/Write.hpp
+/home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/point_cloud_io/Write.hpp
 pcl/io/pcd_io.h
 -
 pcl/io/ply_io.h
@@ -26,11 +26,11 @@ pcl/point_types.h
 pcl_conversions/pcl_conversions.h
 -
 
-/home/lachie/catkin_ws/src/point_cloud_io/src/write_node.cpp
+/home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/write_node.cpp
 ros/ros.h
 -
 point_cloud_io/Write.hpp
-/home/lachie/catkin_ws/src/point_cloud_io/src/point_cloud_io/Write.hpp
+/home/lachie/ARCPTA/catkin_ws/src/point_cloud_io/src/point_cloud_io/Write.hpp
 
 /opt/ros/noetic/include/pcl_conversions/pcl_conversions.h
 vector

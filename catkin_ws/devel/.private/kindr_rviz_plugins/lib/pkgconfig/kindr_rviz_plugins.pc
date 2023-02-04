@@ -1,8 +1,8 @@
-prefix=/home/lachie/catkin_ws/devel/.private/kindr_rviz_plugins
+prefix=/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_rviz_plugins
 
 Name: kindr_rviz_plugins
 Description: Description of kindr_rviz_plugins
 Version: 0.3.10
-Cflags: -I/home/lachie/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include
+Cflags: -I/home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include
 Libs: -L${prefix}/lib -lkindr_rviz_plugins
 Requires: rviz kindr_msgs

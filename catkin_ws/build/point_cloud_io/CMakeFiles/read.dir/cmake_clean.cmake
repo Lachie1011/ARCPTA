@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read"
-  "/home/lachie/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read.pdb"
   "CMakeFiles/read.dir/src/Read.cpp.o"
   "CMakeFiles/read.dir/src/read_node.cpp.o"
 )

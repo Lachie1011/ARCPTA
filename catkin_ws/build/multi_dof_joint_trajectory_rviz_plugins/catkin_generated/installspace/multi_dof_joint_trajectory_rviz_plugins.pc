@@ -1,4 +1,4 @@
-prefix=/home/lachie/catkin_ws/install
+prefix=/home/lachie/ARCPTA/catkin_ws/install
 
 Name: multi_dof_joint_trajectory_rviz_plugins
 Description: Description of multi_dof_joint_trajectory_rviz_plugins

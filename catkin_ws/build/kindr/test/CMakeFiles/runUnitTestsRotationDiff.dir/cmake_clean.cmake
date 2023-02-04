@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsRotationDiff"
-  "/home/lachie/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsRotationDiff.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsRotationDiff"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsRotationDiff.pdb"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o"

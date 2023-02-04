@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "elevation_mapping;grid_map_rviz_plugin;rviz".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "elevation_mapping_demos"
-PROJECT_SPACE_DIR = "/home/lachie/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/lachie/ARCPTA/catkin_ws/install"
 PROJECT_VERSION = "0.7.10"

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lachie/catkin_ws/src/kindr
+CMAKE_SOURCE_DIR = /home/lachie/ARCPTA/catkin_ws/src/kindr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lachie/catkin_ws/build/kindr
+CMAKE_BINARY_DIR = /home/lachie/ARCPTA/catkin_ws/build/kindr
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles /home/lachie/catkin_ws/build/kindr/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

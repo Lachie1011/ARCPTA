@@ -1,4 +1,4 @@
-prefix=/home/lachie/catkin_ws/install
+prefix=/home/lachie/ARCPTA/catkin_ws/install
 
 Name: point_cloud_io
 Description: Description of point_cloud_io

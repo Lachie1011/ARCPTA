@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG -fPIC   -std=c++11 -fPIC -Wall
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dmessage_logger_EXPORTS
 
-CXX_INCLUDES = -I/home/lachie/catkin_ws/src/message_logger/include 
+CXX_INCLUDES = -I/home/lachie/ARCPTA/catkin_ws/src/message_logger/include 
 

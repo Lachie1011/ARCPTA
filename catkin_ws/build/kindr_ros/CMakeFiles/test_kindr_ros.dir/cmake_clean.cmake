@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros"
-  "/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/kindr_ros/test_kindr_ros.pdb"
   "CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o"
   "CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o"
   "CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o"

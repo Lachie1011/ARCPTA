@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lachie/catkin_ws/src/kindr
+CMAKE_SOURCE_DIR = /home/lachie/ARCPTA/catkin_ws/src/kindr
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lachie/catkin_ws/build/kindr
+CMAKE_BINARY_DIR = /home/lachie/ARCPTA/catkin_ws/build/kindr
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -223,14 +223,14 @@ CMakeFiles/tests.dir/all: test/CMakeFiles/runUnitTestsPositions.dir/all
 CMakeFiles/tests.dir/all: test/CMakeFiles/runUnitTestsPose.dir/all
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -250,14 +250,14 @@ CMakeFiles/tests.dir/clean:
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target clean_test_results"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -277,14 +277,14 @@ CMakeFiles/clean_test_results.dir/clean:
 CMakeFiles/download_extra_data.dir/all:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target download_extra_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -304,14 +304,14 @@ CMakeFiles/download_extra_data.dir/clean:
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -331,14 +331,14 @@ CMakeFiles/doxygen.dir/clean:
 CMakeFiles/_catkin_empty_exported_target.dir/all:
 	$(MAKE) -f CMakeFiles/_catkin_empty_exported_target.dir/build.make CMakeFiles/_catkin_empty_exported_target.dir/depend
 	$(MAKE) -f CMakeFiles/_catkin_empty_exported_target.dir/build.make CMakeFiles/_catkin_empty_exported_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_catkin_empty_exported_target.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -358,14 +358,14 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 CMakeFiles/uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -385,14 +385,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/run_tests.dir/all: test/CMakeFiles/_run_tests_kindr.dir/all
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -413,14 +413,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=3,4 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=3,4 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -440,14 +440,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=1,2 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=1,2 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -467,14 +467,14 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=7,8 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -494,14 +494,14 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=5,6 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -523,14 +523,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/all: test/CMake
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/all: test/CMakeFiles/clean_test_results_kindr.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsPhysQuant"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsPhysQuant"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule
 
 # Convenience name for target.
@@ -551,14 +551,14 @@ test/CMakeFiles/runUnitTestsPhysQuant.dir/all: gtest/googletest/CMakeFiles/gtest
 test/CMakeFiles/runUnitTestsPhysQuant.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make test/CMakeFiles/runUnitTestsPhysQuant.dir/depend
 	$(MAKE) -f test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make test/CMakeFiles/runUnitTestsPhysQuant.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=16,17,18,19,20 "Built target runUnitTestsPhysQuant"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=16,17,18,19,20 "Built target runUnitTestsPhysQuant"
 .PHONY : test/CMakeFiles/runUnitTestsPhysQuant.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runUnitTestsPhysQuant.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runUnitTestsPhysQuant.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/runUnitTestsPhysQuant.dir/rule
 
 # Convenience name for target.
@@ -579,14 +579,14 @@ test/CMakeFiles/runUnitTestsVector.dir/all: gtest/googletest/CMakeFiles/gtest_ma
 test/CMakeFiles/runUnitTestsVector.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/runUnitTestsVector.dir/build.make test/CMakeFiles/runUnitTestsVector.dir/depend
 	$(MAKE) -f test/CMakeFiles/runUnitTestsVector.dir/build.make test/CMakeFiles/runUnitTestsVector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=54,55,56 "Built target runUnitTestsVector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=54,55,56 "Built target runUnitTestsVector"
 .PHONY : test/CMakeFiles/runUnitTestsVector.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runUnitTestsVector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runUnitTestsVector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/runUnitTestsVector.dir/rule
 
 # Convenience name for target.
@@ -606,14 +606,14 @@ test/CMakeFiles/runUnitTestsVector.dir/clean:
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/all: test/CMakeFiles/runUnitTestsLinearAlgebra.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsLinearAlgebra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsLinearAlgebra"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule
 
 # Convenience name for target.
@@ -634,14 +634,14 @@ test/CMakeFiles/runUnitTestsLinearAlgebra.dir/all: gtest/googletest/CMakeFiles/g
 test/CMakeFiles/runUnitTestsLinearAlgebra.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make test/CMakeFiles/runUnitTestsLinearAlgebra.dir/depend
 	$(MAKE) -f test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=12,13,14,15 "Built target runUnitTestsLinearAlgebra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=12,13,14,15 "Built target runUnitTestsLinearAlgebra"
 .PHONY : test/CMakeFiles/runUnitTestsLinearAlgebra.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runUnitTestsLinearAlgebra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runUnitTestsLinearAlgebra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/runUnitTestsLinearAlgebra.dir/rule
 
 # Convenience name for target.
@@ -661,14 +661,14 @@ test/CMakeFiles/runUnitTestsLinearAlgebra.dir/clean:
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/all: test/CMakeFiles/runUnitTestsQuaternions.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsQuaternions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsQuaternions"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule
 
 # Convenience name for target.
@@ -697,14 +697,14 @@ test/CMakeFiles/run_tests_kindr_gtest.dir/all: test/CMakeFiles/run_tests_kindr_g
 test/CMakeFiles/run_tests_kindr_gtest.dir/all: test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest.dir/build.make test/CMakeFiles/run_tests_kindr_gtest.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest.dir/build.make test/CMakeFiles/run_tests_kindr_gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest.dir/rule
 
 # Convenience name for target.
@@ -726,14 +726,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/all: test/CMakeF
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/all: test/CMakeFiles/runUnitTestsPoseDiff.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsPoseDiff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsPoseDiff"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule
 
 # Convenience name for target.
@@ -753,14 +753,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/clean:
 test/CMakeFiles/clean_test_results_kindr.dir/all:
 	$(MAKE) -f test/CMakeFiles/clean_test_results_kindr.dir/build.make test/CMakeFiles/clean_test_results_kindr.dir/depend
 	$(MAKE) -f test/CMakeFiles/clean_test_results_kindr.dir/build.make test/CMakeFiles/clean_test_results_kindr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target clean_test_results_kindr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target clean_test_results_kindr"
 .PHONY : test/CMakeFiles/clean_test_results_kindr.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/clean_test_results_kindr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/clean_test_results_kindr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/clean_test_results_kindr.dir/rule
 
 # Convenience name for target.
@@ -782,14 +782,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/all: test/CMakeFil
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/all: test/CMakeFiles/runUnitTestsCommon.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsCommon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsCommon"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/rule
 
 # Convenience name for target.
@@ -809,14 +809,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/clean:
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/all: test/CMakeFiles/runUnitTestsPhysQuant.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsPhysQuant"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsPhysQuant"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule
 
 # Convenience name for target.
@@ -836,14 +836,14 @@ test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/clean:
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/all: test/CMakeFiles/runUnitTestsVector.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsVector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsVector"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/rule
 
 # Convenience name for target.
@@ -872,14 +872,14 @@ test/CMakeFiles/_run_tests_kindr_gtest.dir/all: test/CMakeFiles/_run_tests_kindr
 test/CMakeFiles/_run_tests_kindr_gtest.dir/all: test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest.dir/rule
 
 # Convenience name for target.
@@ -899,14 +899,14 @@ test/CMakeFiles/_run_tests_kindr_gtest.dir/clean:
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/all: test/CMakeFiles/runUnitTestsPositions.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsPositions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsPositions"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/rule
 
 # Convenience name for target.
@@ -928,14 +928,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/all: test/C
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/all: test/CMakeFiles/clean_test_results_kindr.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsLinearAlgebra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsLinearAlgebra"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule
 
 # Convenience name for target.
@@ -956,14 +956,14 @@ test/CMakeFiles/runUnitTestsQuaternions.dir/all: gtest/googletest/CMakeFiles/gte
 test/CMakeFiles/runUnitTestsQuaternions.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/runUnitTestsQuaternions.dir/build.make test/CMakeFiles/runUnitTestsQuaternions.dir/depend
 	$(MAKE) -f test/CMakeFiles/runUnitTestsQuaternions.dir/build.make test/CMakeFiles/runUnitTestsQuaternions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=32,33,34 "Built target runUnitTestsQuaternions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=32,33,34 "Built target runUnitTestsQuaternions"
 .PHONY : test/CMakeFiles/runUnitTestsQuaternions.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runUnitTestsQuaternions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runUnitTestsQuaternions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/runUnitTestsQuaternions.dir/rule
 
 # Convenience name for target.
@@ -983,14 +983,14 @@ test/CMakeFiles/runUnitTestsQuaternions.dir/clean:
 test/CMakeFiles/_run_tests_kindr.dir/all: test/CMakeFiles/_run_tests_kindr_gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr.dir/build.make test/CMakeFiles/_run_tests_kindr.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr.dir/build.make test/CMakeFiles/_run_tests_kindr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr"
 .PHONY : test/CMakeFiles/_run_tests_kindr.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr.dir/rule
 
 # Convenience name for target.
@@ -1011,14 +1011,14 @@ test/CMakeFiles/runUnitTestsRotationDiff.dir/all: gtest/googletest/CMakeFiles/gt
 test/CMakeFiles/runUnitTestsRotationDiff.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make test/CMakeFiles/runUnitTestsRotationDiff.dir/depend
 	$(MAKE) -f test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make test/CMakeFiles/runUnitTestsRotationDiff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53 "Built target runUnitTestsRotationDiff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53 "Built target runUnitTestsRotationDiff"
 .PHONY : test/CMakeFiles/runUnitTestsRotationDiff.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runUnitTestsRotationDiff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runUnitTestsRotationDiff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/runUnitTestsRotationDiff.dir/rule
 
 # Convenience name for target.
@@ -1038,14 +1038,14 @@ test/CMakeFiles/runUnitTestsRotationDiff.dir/clean:
 test/CMakeFiles/run_tests_kindr.dir/all: test/CMakeFiles/run_tests_kindr_gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr.dir/build.make test/CMakeFiles/run_tests_kindr.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr.dir/build.make test/CMakeFiles/run_tests_kindr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr"
 .PHONY : test/CMakeFiles/run_tests_kindr.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr.dir/rule
 
 # Convenience name for target.
@@ -1066,14 +1066,14 @@ test/CMakeFiles/runUnitTestsPoseDiff.dir/all: gtest/googletest/CMakeFiles/gtest_
 test/CMakeFiles/runUnitTestsPoseDiff.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make test/CMakeFiles/runUnitTestsPoseDiff.dir/depend
 	$(MAKE) -f test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make test/CMakeFiles/runUnitTestsPoseDiff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=25,26,27,28,29 "Built target runUnitTestsPoseDiff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=25,26,27,28,29 "Built target runUnitTestsPoseDiff"
 .PHONY : test/CMakeFiles/runUnitTestsPoseDiff.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runUnitTestsPoseDiff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runUnitTestsPoseDiff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/runUnitTestsPoseDiff.dir/rule
 
 # Convenience name for target.
@@ -1093,14 +1093,14 @@ test/CMakeFiles/runUnitTestsPoseDiff.dir/clean:
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/all: test/CMakeFiles/runUnitTestsCommon.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsCommon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsCommon"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/rule
 
 # Convenience name for target.
@@ -1121,14 +1121,14 @@ test/CMakeFiles/runUnitTestsCommon.dir/all: gtest/googletest/CMakeFiles/gtest_ma
 test/CMakeFiles/runUnitTestsCommon.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/runUnitTestsCommon.dir/build.make test/CMakeFiles/runUnitTestsCommon.dir/depend
 	$(MAKE) -f test/CMakeFiles/runUnitTestsCommon.dir/build.make test/CMakeFiles/runUnitTestsCommon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=9,10,11 "Built target runUnitTestsCommon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=9,10,11 "Built target runUnitTestsCommon"
 .PHONY : test/CMakeFiles/runUnitTestsCommon.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runUnitTestsCommon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runUnitTestsCommon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/runUnitTestsCommon.dir/rule
 
 # Convenience name for target.
@@ -1150,14 +1150,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/all: test/CMakeFil
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/all: test/CMakeFiles/clean_test_results_kindr.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsVector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsVector"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/rule
 
 # Convenience name for target.
@@ -1179,14 +1179,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/all: test/CMa
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/all: test/CMakeFiles/runUnitTestsQuaternions.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsQuaternions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsQuaternions"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule
 
 # Convenience name for target.
@@ -1207,14 +1207,14 @@ test/CMakeFiles/runUnitTestsRotation.dir/all: gtest/googletest/CMakeFiles/gtest_
 test/CMakeFiles/runUnitTestsRotation.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/runUnitTestsRotation.dir/build.make test/CMakeFiles/runUnitTestsRotation.dir/depend
 	$(MAKE) -f test/CMakeFiles/runUnitTestsRotation.dir/build.make test/CMakeFiles/runUnitTestsRotation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44 "Built target runUnitTestsRotation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44 "Built target runUnitTestsRotation"
 .PHONY : test/CMakeFiles/runUnitTestsRotation.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runUnitTestsRotation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runUnitTestsRotation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/runUnitTestsRotation.dir/rule
 
 # Convenience name for target.
@@ -1234,14 +1234,14 @@ test/CMakeFiles/runUnitTestsRotation.dir/clean:
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/all: test/CMakeFiles/runUnitTestsRotation.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsRotation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsRotation"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/rule
 
 # Convenience name for target.
@@ -1263,14 +1263,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/all: test/CMakeF
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/all: test/CMakeFiles/runUnitTestsRotation.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsRotation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsRotation"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/rule
 
 # Convenience name for target.
@@ -1290,14 +1290,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/clean:
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/all: test/CMakeFiles/runUnitTestsRotationDiff.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsRotationDiff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsRotationDiff"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule
 
 # Convenience name for target.
@@ -1319,14 +1319,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/all: test/CM
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/all: test/CMakeFiles/runUnitTestsRotationDiff.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsRotationDiff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsRotationDiff"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule
 
 # Convenience name for target.
@@ -1348,14 +1348,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/all: test/CMakeFiles
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/all: test/CMakeFiles/runUnitTestsPose.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsPose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsPose"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/rule
 
 # Convenience name for target.
@@ -1375,14 +1375,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/clean:
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/all: test/CMakeFiles/runUnitTestsPoseDiff.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsPoseDiff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsPoseDiff"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule
 
 # Convenience name for target.
@@ -1404,14 +1404,14 @@ test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/all: test/CMake
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/all: test/CMakeFiles/runUnitTestsPositions.dir/all
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/depend
 	$(MAKE) -f test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/build.make test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsPositions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target _run_tests_kindr_gtest_runUnitTestsPositions"
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/rule
 
 # Convenience name for target.
@@ -1432,14 +1432,14 @@ test/CMakeFiles/runUnitTestsPositions.dir/all: gtest/googletest/CMakeFiles/gtest
 test/CMakeFiles/runUnitTestsPositions.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/runUnitTestsPositions.dir/build.make test/CMakeFiles/runUnitTestsPositions.dir/depend
 	$(MAKE) -f test/CMakeFiles/runUnitTestsPositions.dir/build.make test/CMakeFiles/runUnitTestsPositions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=30,31 "Built target runUnitTestsPositions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=30,31 "Built target runUnitTestsPositions"
 .PHONY : test/CMakeFiles/runUnitTestsPositions.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runUnitTestsPositions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runUnitTestsPositions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/runUnitTestsPositions.dir/rule
 
 # Convenience name for target.
@@ -1460,14 +1460,14 @@ test/CMakeFiles/runUnitTestsPose.dir/all: gtest/googletest/CMakeFiles/gtest_main
 test/CMakeFiles/runUnitTestsPose.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/runUnitTestsPose.dir/build.make test/CMakeFiles/runUnitTestsPose.dir/depend
 	$(MAKE) -f test/CMakeFiles/runUnitTestsPose.dir/build.make test/CMakeFiles/runUnitTestsPose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num=21,22,23,24 "Built target runUnitTestsPose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num=21,22,23,24 "Built target runUnitTestsPose"
 .PHONY : test/CMakeFiles/runUnitTestsPose.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runUnitTestsPose.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/runUnitTestsPose.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/runUnitTestsPose.dir/rule
 
 # Convenience name for target.
@@ -1487,14 +1487,14 @@ test/CMakeFiles/runUnitTestsPose.dir/clean:
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/all: test/CMakeFiles/runUnitTestsPose.dir/all
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/depend
 	$(MAKE) -f test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/build.make test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsPose"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles --progress-num= "Built target run_tests_kindr_gtest_runUnitTestsPose"
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr/CMakeFiles 0
 .PHONY : test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/rule
 
 # Convenience name for target.

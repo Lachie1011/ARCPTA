@@ -1,4 +1,4 @@
-prefix=/home/lachie/catkin_ws/install
+prefix=/home/lachie/ARCPTA/catkin_ws/install
 
 Name: message_logger
 Description: Description of message_logger

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/elevation_mapping_demos/lib/elevation_mapping_demos/test_elevation_mapping_demos"
-  "/home/lachie/catkin_ws/devel/.private/elevation_mapping_demos/lib/elevation_mapping_demos/test_elevation_mapping_demos.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping_demos/lib/elevation_mapping_demos/test_elevation_mapping_demos"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping_demos/lib/elevation_mapping_demos/test_elevation_mapping_demos.pdb"
   "CMakeFiles/test_elevation_mapping_demos.dir/test/empty_test.cpp.o"
 )
 

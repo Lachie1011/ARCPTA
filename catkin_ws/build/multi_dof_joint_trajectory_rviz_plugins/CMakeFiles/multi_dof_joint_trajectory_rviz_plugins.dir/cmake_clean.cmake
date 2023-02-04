@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.pdb"
-  "/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so"
   "CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o"
   "CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o"
   "CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping_demos
+CMAKE_SOURCE_DIR = /home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping_demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lachie/catkin_ws/build/elevation_mapping_demos
+CMAKE_BINARY_DIR = /home/lachie/ARCPTA/catkin_ws/build/elevation_mapping_demos
 
 # Utility rule file for run_tests_elevation_mapping_demos_roslaunch-check.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests_elevation_mapping_demos_roslaunch-check.dir/clean:
 .PHONY : CMakeFiles/run_tests_elevation_mapping_demos_roslaunch-check.dir/clean
 
 CMakeFiles/run_tests_elevation_mapping_demos_roslaunch-check.dir/depend:
-	cd /home/lachie/catkin_ws/build/elevation_mapping_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping_demos /home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping_demos /home/lachie/catkin_ws/build/elevation_mapping_demos /home/lachie/catkin_ws/build/elevation_mapping_demos /home/lachie/catkin_ws/build/elevation_mapping_demos/CMakeFiles/run_tests_elevation_mapping_demos_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lachie/ARCPTA/catkin_ws/build/elevation_mapping_demos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping_demos /home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping_demos /home/lachie/ARCPTA/catkin_ws/build/elevation_mapping_demos /home/lachie/ARCPTA/catkin_ws/build/elevation_mapping_demos /home/lachie/ARCPTA/catkin_ws/build/elevation_mapping_demos/CMakeFiles/run_tests_elevation_mapping_demos_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_elevation_mapping_demos_roslaunch-check.dir/depend
 

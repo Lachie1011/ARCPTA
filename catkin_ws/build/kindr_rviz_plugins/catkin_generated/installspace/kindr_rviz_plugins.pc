@@ -1,4 +1,4 @@
-prefix=/home/lachie/catkin_ws/install
+prefix=/home/lachie/ARCPTA/catkin_ws/install
 
 Name: kindr_rviz_plugins
 Description: Description of kindr_rviz_plugins

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsPhysQuant"
-  "/home/lachie/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsPhysQuant.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsPhysQuant"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsPhysQuant.pdb"
   "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o"
   "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o"
   "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o"

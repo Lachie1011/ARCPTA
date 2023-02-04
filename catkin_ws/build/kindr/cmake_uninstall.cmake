@@ -1,8 +1,8 @@
-if(NOT EXISTS "/home/lachie/catkin_ws/build/kindr/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/lachie/catkin_ws/build/kindr/install_manifest.txt")
-endif(NOT EXISTS "/home/lachie/catkin_ws/build/kindr/install_manifest.txt")
+if(NOT EXISTS "/home/lachie/ARCPTA/catkin_ws/build/kindr/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/lachie/ARCPTA/catkin_ws/build/kindr/install_manifest.txt")
+endif(NOT EXISTS "/home/lachie/ARCPTA/catkin_ws/build/kindr/install_manifest.txt")
 
-file(READ "/home/lachie/catkin_ws/build/kindr/install_manifest.txt" files)
+file(READ "/home/lachie/ARCPTA/catkin_ws/build/kindr/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/kindr_msgs/share/gennodejs/ros/kindr_msgs/msg/VectorAtPosition.js"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_msgs/share/gennodejs/ros/kindr_msgs/msg/VectorAtPosition.js"
   "CMakeFiles/kindr_msgs_generate_messages_nodejs"
 )
 

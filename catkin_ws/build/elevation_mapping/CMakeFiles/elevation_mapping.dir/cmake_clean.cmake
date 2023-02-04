@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/elevation_mapping/lib/elevation_mapping/elevation_mapping"
-  "/home/lachie/catkin_ws/devel/.private/elevation_mapping/lib/elevation_mapping/elevation_mapping.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping/lib/elevation_mapping/elevation_mapping"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping/lib/elevation_mapping/elevation_mapping.pdb"
   "CMakeFiles/elevation_mapping.dir/src/elevation_mapping_node.cpp.o"
 )
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lachie/catkin_ws/src/kindr_ros/kindr_ros
+CMAKE_SOURCE_DIR = /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lachie/catkin_ws/build/kindr_ros
+CMAKE_BINARY_DIR = /home/lachie/ARCPTA/catkin_ws/build/kindr_ros
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr_ros/CMakeFiles /home/lachie/catkin_ws/build/kindr_ros/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles /home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/catkin_ws/build/kindr_ros/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lachie/ARCPTA/catkin_ws/build/kindr_ros/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

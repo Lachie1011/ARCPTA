@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/kindr_msgs/share/roseus/ros/kindr_msgs/manifest.l"
-  "/home/lachie/catkin_ws/devel/.private/kindr_msgs/share/roseus/ros/kindr_msgs/msg/VectorAtPosition.l"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_msgs/share/roseus/ros/kindr_msgs/manifest.l"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_msgs/share/roseus/ros/kindr_msgs/msg/VectorAtPosition.l"
   "CMakeFiles/kindr_msgs_generate_messages_eus"
 )
 

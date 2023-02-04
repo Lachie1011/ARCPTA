@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DGTEST_HAS_PTHREAD=1 -std=g
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"kindr_ros\"
 
-CXX_INCLUDES = -I/home/lachie/catkin_ws/src/kindr_ros/kindr_ros/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/lachie/catkin_ws/src/kindr/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest 
+CXX_INCLUDES = -I/home/lachie/ARCPTA/catkin_ws/src/kindr_ros/kindr_ros/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /home/lachie/catkin_ws/src/kindr/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest 
 

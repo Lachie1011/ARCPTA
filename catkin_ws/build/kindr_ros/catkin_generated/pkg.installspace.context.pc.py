@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/usr/include/eigen3".split(
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;tf;kindr".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "kindr_ros"
-PROJECT_SPACE_DIR = "/home/lachie/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/lachie/ARCPTA/catkin_ws/install"
 PROJECT_VERSION = "0.3.10"

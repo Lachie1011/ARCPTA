@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsRotation"
-  "/home/lachie/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsRotation.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsRotation"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsRotation.pdb"
   "CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o"
   "CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o"
   "CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o"

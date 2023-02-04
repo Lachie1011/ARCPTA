@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsPoseDiff"
-  "/home/lachie/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsPoseDiff.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsPoseDiff"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/lib/kindr/runUnitTestsPoseDiff.pdb"
   "CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.o"
   "CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.o"
   "CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.o"

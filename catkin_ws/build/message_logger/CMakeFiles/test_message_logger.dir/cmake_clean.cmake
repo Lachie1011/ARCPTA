@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/message_logger/lib/message_logger/test_message_logger"
-  "/home/lachie/catkin_ws/devel/.private/message_logger/lib/message_logger/test_message_logger.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/message_logger/lib/message_logger/test_message_logger"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/message_logger/lib/message_logger/test_message_logger.pdb"
   "CMakeFiles/test_message_logger.dir/test/EmptyTests.cpp.o"
 )
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins
+CMAKE_SOURCE_DIR = /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins
+CMAKE_BINARY_DIR = /home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins
 
 # Include any dependencies generated for this target.
 include CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/depend.make
@@ -57,61 +57,61 @@ include CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
 
-include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp: /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/MultiDOFJointTrajectoryDisplay.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp"
-	cd /home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins && /usr/lib/qt5/bin/moc @/home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp_parameters
+include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp: /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/MultiDOFJointTrajectoryDisplay.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp"
+	cd /home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins && /usr/lib/qt5/bin/moc @/home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp_parameters
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
-CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o: /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o -c /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp
+CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
-CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o: /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o -c /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp
+CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
-CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o: /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o -c /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp
+CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o: /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o -c /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o: include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o -c /home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o -c /home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s
 
 # Object files for target multi_dof_joint_trajectory_rviz_plugins
 multi_dof_joint_trajectory_rviz_plugins_OBJECTS = \
@@ -123,67 +123,67 @@ multi_dof_joint_trajectory_rviz_plugins_OBJECTS = \
 # External object files for target multi_dof_joint_trajectory_rviz_plugins
 multi_dof_joint_trajectory_rviz_plugins_EXTERNAL_OBJECTS =
 
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librviz.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libGLX.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libimage_transport.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libinteractive_markers.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/liblaser_geometry.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libresource_retriever.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libactionlib.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf2.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/liburdf.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroslib.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librospack.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_bridge.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroscpp.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librostime.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so"
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librviz.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libGLX.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libimage_transport.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libinteractive_markers.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/liblaser_geometry.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libresource_retriever.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libactionlib.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf2.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/liburdf.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroslib.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librospack.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_bridge.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroscpp.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librostime.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
+/home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build: /home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so
+CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build: /home/lachie/ARCPTA/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/lib/libmulti_dof_joint_trajectory_rviz_plugins.so
 
 .PHONY : CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build
 
@@ -192,6 +192,6 @@ CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/clean:
 .PHONY : CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/clean
 
 CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/depend: include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
-	cd /home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins /home/lachie/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins /home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins /home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins /home/lachie/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins /home/lachie/ARCPTA/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins /home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins /home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins /home/lachie/ARCPTA/catkin_ws/build/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/depend
 

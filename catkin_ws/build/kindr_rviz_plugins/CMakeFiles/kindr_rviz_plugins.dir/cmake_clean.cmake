@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/lachie/catkin_ws/devel/.private/kindr_rviz_plugins/lib/libkindr_rviz_plugins.pdb"
-  "/home/lachie/catkin_ws/devel/.private/kindr_rviz_plugins/lib/libkindr_rviz_plugins.so"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_rviz_plugins/lib/libkindr_rviz_plugins.pdb"
+  "/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_rviz_plugins/lib/libkindr_rviz_plugins.so"
   "CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o"
   "CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.o"
   "CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.o"

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/lachie/catkin_ws/devel/.private/elevation_mapping_demos/setup.sh
+    local-name: /home/lachie/ARCPTA/catkin_ws/devel/.private/elevation_mapping_demos/setup.sh

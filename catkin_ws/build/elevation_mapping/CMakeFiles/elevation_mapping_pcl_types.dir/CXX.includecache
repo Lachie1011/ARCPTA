@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
 pcl/pcl_macros.h
 -
 pcl/point_cloud.h
@@ -14,9 +14,9 @@ pcl/point_cloud.h
 pcl/point_types.h
 -
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/src/PointXYZRGBConfidenceRatio.cpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/src/PointXYZRGBConfidenceRatio.cpp
 elevation_mapping/PointXYZRGBConfidenceRatio.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/src/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/src/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
 pcl/filters/extract_indices.h
 -
 pcl/filters/filter.h

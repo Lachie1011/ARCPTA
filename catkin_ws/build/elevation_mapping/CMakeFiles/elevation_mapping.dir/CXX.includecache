@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/ElevationMap.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/ElevationMap.hpp
 grid_map_ros/grid_map_ros.hpp
 -
 Eigen/Core
@@ -20,13 +20,13 @@ boost/thread/recursive_mutex.hpp
 ros/ros.h
 -
 elevation_mapping/PointXYZRGBConfidenceRatio.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
 elevation_mapping/ThreadSafeDataWrapper.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/ThreadSafeDataWrapper.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/ThreadSafeDataWrapper.hpp
 elevation_mapping/postprocessing/PostprocessorPool.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/postprocessing/PostprocessorPool.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/postprocessing/PostprocessorPool.hpp
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/ElevationMapping.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/ElevationMapping.hpp
 grid_map_msgs/GetGridMap.h
 -
 grid_map_msgs/ProcessFile.h
@@ -56,21 +56,21 @@ Eigen/Geometry
 boost/thread.hpp
 -
 elevation_mapping/ElevationMap.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/ElevationMap.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/ElevationMap.hpp
 elevation_mapping/PointXYZRGBConfidenceRatio.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
 elevation_mapping/RobotMotionMapUpdater.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/RobotMotionMapUpdater.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/RobotMotionMapUpdater.hpp
 elevation_mapping/ThreadSafeDataWrapper.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/ThreadSafeDataWrapper.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/ThreadSafeDataWrapper.hpp
 elevation_mapping/WeightedEmpiricalCumulativeDistributionFunction.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/WeightedEmpiricalCumulativeDistributionFunction.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/WeightedEmpiricalCumulativeDistributionFunction.hpp
 elevation_mapping/input_sources/InputSourceManager.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/input_sources/InputSourceManager.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/input_sources/InputSourceManager.hpp
 elevation_mapping/sensor_processors/SensorProcessorBase.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/sensor_processors/SensorProcessorBase.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/sensor_processors/SensorProcessorBase.hpp
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
 pcl/pcl_macros.h
 -
 pcl/point_cloud.h
@@ -78,9 +78,9 @@ pcl/point_cloud.h
 pcl/point_types.h
 -
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/RobotMotionMapUpdater.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/RobotMotionMapUpdater.hpp
 elevation_mapping/ElevationMap.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/ElevationMap.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/elevation_mapping/ElevationMap.hpp
 Eigen/Core
 -
 kindr/Core
@@ -88,13 +88,13 @@ kindr/Core
 ros/ros.h
 -
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/ThreadSafeDataWrapper.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/ThreadSafeDataWrapper.hpp
 mutex
 -
 thread
 -
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/WeightedEmpiricalCumulativeDistributionFunction.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/WeightedEmpiricalCumulativeDistributionFunction.hpp
 iostream
 -
 map
@@ -102,7 +102,7 @@ map
 stdexcept
 -
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/input_sources/Input.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/input_sources/Input.hpp
 XmlRpc.h
 -
 ros/ros.h
@@ -110,19 +110,19 @@ ros/ros.h
 string
 -
 elevation_mapping/ThreadSafeDataWrapper.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/input_sources/elevation_mapping/ThreadSafeDataWrapper.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/input_sources/elevation_mapping/ThreadSafeDataWrapper.hpp
 elevation_mapping/sensor_processors/SensorProcessorBase.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/input_sources/elevation_mapping/sensor_processors/SensorProcessorBase.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/input_sources/elevation_mapping/sensor_processors/SensorProcessorBase.hpp
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/input_sources/InputSourceManager.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/input_sources/InputSourceManager.hpp
 elevation_mapping/input_sources/Input.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/input_sources/elevation_mapping/input_sources/Input.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/input_sources/elevation_mapping/input_sources/Input.hpp
 XmlRpc.h
 -
 ros/ros.h
 -
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/PostprocessingPipelineFunctor.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/PostprocessingPipelineFunctor.hpp
 ros/ros.h
 -
 filters/filter_chain.hpp
@@ -130,9 +130,9 @@ filters/filter_chain.hpp
 grid_map_core/GridMap.hpp
 -
 elevation_mapping/ThreadSafeDataWrapper.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/elevation_mapping/ThreadSafeDataWrapper.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/elevation_mapping/ThreadSafeDataWrapper.hpp
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/PostprocessingWorker.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/PostprocessingWorker.hpp
 boost/asio.hpp
 -
 boost/thread.hpp
@@ -142,9 +142,9 @@ thread
 grid_map_core/GridMap.hpp
 -
 elevation_mapping/postprocessing/PostprocessingPipelineFunctor.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/elevation_mapping/postprocessing/PostprocessingPipelineFunctor.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/elevation_mapping/postprocessing/PostprocessingPipelineFunctor.hpp
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/PostprocessorPool.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/PostprocessorPool.hpp
 boost/asio.hpp
 -
 boost/thread.hpp
@@ -160,11 +160,11 @@ thread
 grid_map_core/GridMap.hpp
 -
 elevation_mapping/postprocessing/PostprocessingPipelineFunctor.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/elevation_mapping/postprocessing/PostprocessingPipelineFunctor.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/elevation_mapping/postprocessing/PostprocessingPipelineFunctor.hpp
 elevation_mapping/postprocessing/PostprocessingWorker.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/elevation_mapping/postprocessing/PostprocessingWorker.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/postprocessing/elevation_mapping/postprocessing/PostprocessingWorker.hpp
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/sensor_processors/SensorProcessorBase.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/sensor_processors/SensorProcessorBase.hpp
 ros/ros.h
 -
 tf/transform_listener.h
@@ -180,15 +180,15 @@ string
 unordered_map
 -
 elevation_mapping/PointXYZRGBConfidenceRatio.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/sensor_processors/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/sensor_processors/elevation_mapping/PointXYZRGBConfidenceRatio.hpp
 elevation_mapping/ThreadSafeDataWrapper.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/sensor_processors/elevation_mapping/ThreadSafeDataWrapper.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/include/elevation_mapping/sensor_processors/elevation_mapping/ThreadSafeDataWrapper.hpp
 
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/src/elevation_mapping_node.cpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/src/elevation_mapping_node.cpp
 ros/ros.h
 -
 elevation_mapping/ElevationMapping.hpp
-/home/lachie/catkin_ws/src/elevation_mapping/elevation_mapping/src/elevation_mapping/ElevationMapping.hpp
+/home/lachie/ARCPTA/catkin_ws/src/elevation_mapping/elevation_mapping/src/elevation_mapping/ElevationMapping.hpp
 
 /home/lachie/catkin_ws/src/kindr/include/kindr/Core
 kindr/rotations/Rotation.hpp
