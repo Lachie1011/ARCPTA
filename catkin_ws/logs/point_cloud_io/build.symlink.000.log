@@ -1,5 +1,0 @@
-Symlinking /home/lachie/catkin_ws/devel/lib/pkgconfig/point_cloud_io.pc
-Symlinking /home/lachie/catkin_ws/devel/lib/point_cloud_io/read
-Symlinking /home/lachie/catkin_ws/devel/lib/point_cloud_io/write
-Symlinking /home/lachie/catkin_ws/devel/share/point_cloud_io/cmake/point_cloud_ioConfig.cmake
-Symlinking /home/lachie/catkin_ws/devel/share/point_cloud_io/cmake/point_cloud_ioConfig-version.cmake

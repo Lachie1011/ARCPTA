@@ -1,6 +1,0 @@
-Symlinking /home/lachie/catkin_ws/devel/lib/libelevation_mapping_pcl_types.so
-Symlinking /home/lachie/catkin_ws/devel/lib/libelevation_mapping_library.so
-Symlinking /home/lachie/catkin_ws/devel/lib/elevation_mapping/elevation_mapping
-Symlinking /home/lachie/catkin_ws/devel/lib/pkgconfig/elevation_mapping.pc
-Symlinking /home/lachie/catkin_ws/devel/share/elevation_mapping/cmake/elevation_mappingConfig-version.cmake
-Symlinking /home/lachie/catkin_ws/devel/share/elevation_mapping/cmake/elevation_mappingConfig.cmake
