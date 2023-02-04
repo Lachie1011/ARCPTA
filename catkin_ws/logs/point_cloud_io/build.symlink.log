@@ -1,0 +1,12 @@
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/pkgconfig/point_cloud_io.pc to existing file /home/lachie/ARCPTA/catkin_ws/devel/lib/pkgconfig/point_cloud_io.pc
+Warning: Source hash: a8f99a867077876fe05a75c6ec628331
+Warning: Dest hash: b8834e0058f075abbb5cb231f94b9379
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/read to existing file /home/lachie/ARCPTA/catkin_ws/devel/lib/point_cloud_io/read
+Warning: Source hash: ecf1d528f59d136efcc1f4c742a71cb5
+Warning: Dest hash: a0a295a3e8430e8c48b38bcf3025d1e6
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/lib/point_cloud_io/write to existing file /home/lachie/ARCPTA/catkin_ws/devel/lib/point_cloud_io/write
+Warning: Source hash: dbf6a6297d8314a395eb19ed312441f8
+Warning: Dest hash: c3e535222dc392ce61ab00f9cad7bbea
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/point_cloud_io/share/point_cloud_io/cmake/point_cloud_ioConfig.cmake to existing file /home/lachie/ARCPTA/catkin_ws/devel/share/point_cloud_io/cmake/point_cloud_ioConfig.cmake
+Warning: Source hash: 7c858e9bf53252840f3ca99415f1a11f
+Warning: Dest hash: af4376291733611edb672904efe739f8

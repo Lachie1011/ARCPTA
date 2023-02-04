@@ -1,0 +1,13 @@
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/lib/pkgconfig/kindr_ros.pc to existing file /home/lachie/ARCPTA/catkin_ws/devel/lib/pkgconfig/kindr_ros.pc
+Warning: Source hash: b4f501e1a95c07af53a51b4fedcc0919
+Warning: Dest hash: 0ccf27464b8b9019b0ae6e62b0743223
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_ros/share/kindr_ros/cmake/kindr_rosConfig.cmake to existing file /home/lachie/ARCPTA/catkin_ws/devel/share/kindr_ros/cmake/kindr_rosConfig.cmake
+Warning: Source hash: 2147f2f93663fd82feba6b9ee5dda5ec
+Warning: Dest hash: be9df8faf6489ee4e1e0c779b144ca8d
+Cleaning: (/home/lachie/catkin_ws/devel/.private/kindr_ros/cmake.lock, /home/lachie/catkin_ws/devel/./cmake.lock)
+Cleaning: (/home/lachie/catkin_ws/devel/.private/kindr_ros/lib/pkgconfig/kindr_ros.pc, /home/lachie/catkin_ws/devel/lib/pkgconfig/kindr_ros.pc)
+Cleaning: (/home/lachie/catkin_ws/devel/.private/kindr_ros/share/kindr_ros/cmake/kindr_rosConfig-version.cmake, /home/lachie/catkin_ws/devel/share/kindr_ros/cmake/kindr_rosConfig-version.cmake)
+Cleaning: (/home/lachie/catkin_ws/devel/.private/kindr_ros/share/kindr_ros/cmake/kindr_rosConfig.cmake, /home/lachie/catkin_ws/devel/share/kindr_ros/cmake/kindr_rosConfig.cmake)
+Unlinking: /home/lachie/catkin_ws/devel/lib/pkgconfig/kindr_ros.pc
+Unlinking: /home/lachie/catkin_ws/devel/share/kindr_ros/cmake/kindr_rosConfig-version.cmake
+Unlinking: /home/lachie/catkin_ws/devel/share/kindr_ros/cmake/kindr_rosConfig.cmake

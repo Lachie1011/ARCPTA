@@ -1,0 +1,18 @@
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_rviz_plugins/lib/libkindr_rviz_plugins.so to existing file /home/lachie/ARCPTA/catkin_ws/devel/lib/libkindr_rviz_plugins.so
+Warning: Source hash: f3decfdffe667d736ab940ead06cdbca
+Warning: Dest hash: f487dc2621f8b6efa1c4dfcbdcd1192a
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_rviz_plugins/lib/pkgconfig/kindr_rviz_plugins.pc to existing file /home/lachie/ARCPTA/catkin_ws/devel/lib/pkgconfig/kindr_rviz_plugins.pc
+Warning: Source hash: 2abcac3e6ae8dc0f55c87fa243d6c994
+Warning: Dest hash: 8a87761e12ace3bdd5014fb87b42e85e
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/kindr_rviz_plugins/share/kindr_rviz_plugins/cmake/kindr_rviz_pluginsConfig.cmake to existing file /home/lachie/ARCPTA/catkin_ws/devel/share/kindr_rviz_plugins/cmake/kindr_rviz_pluginsConfig.cmake
+Warning: Source hash: ef6c1cb067988d9858294b7b54688955
+Warning: Dest hash: 019f0ffe0de22ea74c01277b9cf8d1d6
+Cleaning: (/home/lachie/catkin_ws/devel/.private/kindr_rviz_plugins/cmake.lock, /home/lachie/catkin_ws/devel/./cmake.lock)
+Cleaning: (/home/lachie/catkin_ws/devel/.private/kindr_rviz_plugins/lib/libkindr_rviz_plugins.so, /home/lachie/catkin_ws/devel/lib/libkindr_rviz_plugins.so)
+Cleaning: (/home/lachie/catkin_ws/devel/.private/kindr_rviz_plugins/lib/pkgconfig/kindr_rviz_plugins.pc, /home/lachie/catkin_ws/devel/lib/pkgconfig/kindr_rviz_plugins.pc)
+Cleaning: (/home/lachie/catkin_ws/devel/.private/kindr_rviz_plugins/share/kindr_rviz_plugins/cmake/kindr_rviz_pluginsConfig.cmake, /home/lachie/catkin_ws/devel/share/kindr_rviz_plugins/cmake/kindr_rviz_pluginsConfig.cmake)
+Cleaning: (/home/lachie/catkin_ws/devel/.private/kindr_rviz_plugins/share/kindr_rviz_plugins/cmake/kindr_rviz_pluginsConfig-version.cmake, /home/lachie/catkin_ws/devel/share/kindr_rviz_plugins/cmake/kindr_rviz_pluginsConfig-version.cmake)
+Unlinking: /home/lachie/catkin_ws/devel/lib/libkindr_rviz_plugins.so
+Unlinking: /home/lachie/catkin_ws/devel/lib/pkgconfig/kindr_rviz_plugins.pc
+Unlinking: /home/lachie/catkin_ws/devel/share/kindr_rviz_plugins/cmake/kindr_rviz_pluginsConfig.cmake
+Unlinking: /home/lachie/catkin_ws/devel/share/kindr_rviz_plugins/cmake/kindr_rviz_pluginsConfig-version.cmake

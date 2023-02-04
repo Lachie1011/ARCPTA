@@ -1,0 +1,6 @@
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/lib/pkgconfig/kindr.pc to existing file /home/lachie/ARCPTA/catkin_ws/devel/lib/pkgconfig/kindr.pc
+Warning: Source hash: 55ea38b87e843b63e02105b5d973f7ae
+Warning: Dest hash: d680af521c0bc8fe282d8a8cf2b769b6
+Warning: Cannot symlink from /home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/share/kindr/cmake/kindrConfig.cmake to existing file /home/lachie/ARCPTA/catkin_ws/devel/share/kindr/cmake/kindrConfig.cmake
+Warning: Source hash: 4af7400b75c0a58c03bc9713215cfd2c
+Warning: Dest hash: dd219f1486046d45d1e17d209a6e9090

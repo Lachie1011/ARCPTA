@@ -1,0 +1,5 @@
+Symlinking /home/lachie/catkin_ws/devel/lib/libmessage_logger.so
+Symlinking /home/lachie/catkin_ws/devel/lib/pkgconfig/message_logger.pc
+Symlinking /home/lachie/catkin_ws/devel/share/message_logger/cmake/message_loggerConfig-version.cmake
+Symlinking /home/lachie/catkin_ws/devel/share/message_logger/cmake/message_loggerConfig.cmake
+Symlinking /home/lachie/catkin_ws/devel/include/message_logger/log/log_messages_backend_config.hpp
