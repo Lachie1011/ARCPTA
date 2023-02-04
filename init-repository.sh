@@ -33,13 +33,15 @@ cd catkin_ws/src
 sudo apt-get update
 
 # Installing dependencies needed for the elevation mapping package:
-sudo apt install libpcl-dev libeigen3-dev
+sudo apt install libpcl-dev libeigen3-dev ros-$ROS_DISTRO-grid-map
 
 # Cloning repositories needed:
-git clone https://github.com/ANYbotics/grid_map.git
 git clone https://github.com/ANYbotics/kindr.git
 git clone https://github.com/ANYbotics/kindr_ros.git
-git clone https://github.com/anybotics/elevation_mapping.git
+git clone https://github.com/ANYbotics/point_cloud_io.git
+git clone https://github.com/ANYbotics/message_logger.git
+
+catkin build 
 
 # Installing dependencies needed to install 
 sudo apt-get install ros-noetic-catkin python-catkin-tools 
