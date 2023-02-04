@@ -1,1 +1,0 @@
-/home/lachie/catkin_ws/devel/.private/multi_dof_joint_trajectory_rviz_plugins/share/multi_dof_joint_trajectory_rviz_plugins/cmake/multi_dof_joint_trajectory_rviz_pluginsConfig-version.cmake
