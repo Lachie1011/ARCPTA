@@ -41,13 +41,18 @@ git clone https://github.com/ANYbotics/kindr_ros.git
 git clone https://github.com/ANYbotics/point_cloud_io.git
 git clone https://github.com/ANYbotics/message_logger.git
 
-catkin build 
 
 # Installing dependencies needed to install 
 sudo apt-get install ros-noetic-catkin python-catkin-tools 
 
+# Building dependencies
+cd ../ 
+catkin build 
+
+# Cloning elevation mapping 
+git clone https://github.com/ANYbotics/elevation_mapping.git
+
 # Building elevation mapping 
-cd ../
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
 catkin build
 
