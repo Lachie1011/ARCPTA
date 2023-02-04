@@ -50,9 +50,11 @@ cd ../
 catkin build 
 
 # Cloning elevation mapping 
+cd src
 git clone https://github.com/ANYbotics/elevation_mapping.git
 
 # Building elevation mapping 
+cd ../
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
 catkin build
 
