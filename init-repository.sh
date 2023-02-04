@@ -51,7 +51,7 @@ catkin build
 
 # Cloning elevation mapping 
 cd src
-git clone https://github.com/ANYbotics/elevation_mapping.git
+git clone https://github.com/Lachie1011/elevation_mapping.git
 
 # Building elevation mapping 
 cd ../
