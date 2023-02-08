@@ -47,7 +47,7 @@ git clone https://github.com/ANYbotics/message_logger.git
 # Repositories needed for traversability estimation:
 git clone https://github.com/leggedrobotics/any_node.git
 
-# Building dependencies first - elevation mapping doesnt have a great CMAKE
+# Building dependencies first - elevation mapping fails unless this is done
 cd ../ 
 catkin build 
 
@@ -59,4 +59,4 @@ git clone https://github.com/Lachie1011/traversability_estimation.git
 # Building elevation mapping and traversability estimation in Release
 cd ../
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
-catkin build
+catkin build elevation_mapping traversability_estimation
