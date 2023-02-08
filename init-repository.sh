@@ -14,7 +14,7 @@
 # should be added to this script.
 
 # Script version 0.1 - Only elevation mapping packages includeded
-# TODO: Traversability Estimation, Panoptic pipeline
+# TODO: Panoptic pipeline
 
 # Checking current working directory:
 DIR=$(pwd)
@@ -32,32 +32,31 @@ cd catkin_ws/src
 # Updating package list 
 sudo apt-get update
 
+# Installing dependencies needed for build 
+sudo apt-get install ros-$ROS_DISTRO-catkin python-catkin-tools 
+
 # Installing dependencies needed for the elevation mapping package:
 sudo apt install libpcl-dev libeigen3-dev ros-$ROS_DISTRO-grid-map
 
-# Cloning repositories needed:
+# Repositories needed for elevation mapping:
 git clone https://github.com/ANYbotics/kindr.git
 git clone https://github.com/ANYbotics/kindr_ros.git
 git clone https://github.com/ANYbotics/point_cloud_io.git
 git clone https://github.com/ANYbotics/message_logger.git
 
+# Repositories needed for traversability estimation:
+git clone https://github.com/leggedrobotics/any_node.git
 
-# Installing dependencies needed to install 
-sudo apt-get install ros-noetic-catkin python-catkin-tools 
-
-# Building dependencies
+# Building dependencies first - elevation mapping doesnt have a great CMAKE
 cd ../ 
 catkin build 
 
-# Cloning elevation mapping 
+# Cloning elevation mapping and traversability estimation from forks
 cd src
 git clone https://github.com/Lachie1011/elevation_mapping.git
+git clone https://github.com/Lachie1011/traversability_estimation.git
 
-# Building elevation mapping 
+# Building elevation mapping and traversability estimation in Release
 cd ../
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
 catkin build
-
-
-# Pulling repositories and dependencies and needed for the traversbility 
-# estimation packages
