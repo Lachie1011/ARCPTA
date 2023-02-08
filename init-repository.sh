@@ -59,4 +59,4 @@ git clone https://github.com/Lachie1011/traversability_estimation.git
 # Building elevation mapping and traversability estimation in Release
 cd ../
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
-catkin build elevation_mapping traversability_estimation
+catkin build elevation_mapping elevation_mapping_demos traversability_estimation
