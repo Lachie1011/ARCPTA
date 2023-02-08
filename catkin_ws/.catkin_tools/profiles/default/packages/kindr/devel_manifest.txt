@@ -1,5 +1,0 @@
-kindr
-/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/cmake.lock /home/lachie/ARCPTA/catkin_ws/devel/./cmake.lock
-/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/lib/pkgconfig/kindr.pc /home/lachie/ARCPTA/catkin_ws/devel/lib/pkgconfig/kindr.pc
-/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/share/kindr/cmake/kindrConfig.cmake /home/lachie/ARCPTA/catkin_ws/devel/share/kindr/cmake/kindrConfig.cmake
-/home/lachie/ARCPTA/catkin_ws/devel/.private/kindr/share/kindr/cmake/kindrConfig-version.cmake /home/lachie/ARCPTA/catkin_ws/devel/share/kindr/cmake/kindrConfig-version.cmake
