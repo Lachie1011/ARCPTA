@@ -2,3 +2,4 @@ catkin_ws/.caktin_tools
 catkin_ws/build
 catkin_ws/devel
 catkin_ws/logs
+rosbags
