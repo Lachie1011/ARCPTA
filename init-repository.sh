@@ -13,8 +13,10 @@
 # any packaged that have had be be installed outside of this list, 
 # should be added to this script.
 
-# Script version 0.1 - Only elevation mapping packages includeded
+# Script version 0.2 - Elevation mapping and Traversability packages included
+
 # TODO: Panoptic pipeline
+# TODO: Add realsense camera packages to script
 
 # Checking current working directory:
 DIR=$(pwd)
