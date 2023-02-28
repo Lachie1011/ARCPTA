@@ -33,7 +33,7 @@ cd catkin_ws/src
 sudo apt-get update
 
 # Installing dependencies needed for build 
-sudo apt-get install ros-$ROS_DISTRO-catkin python-catkin-tools 
+sudo apt-get install ros-$ROS_DISTRO-catkin python3-catkin-tools 
 
 # Installing dependencies needed for the elevation mapping package:
 sudo apt install libpcl-dev libeigen3-dev ros-$ROS_DISTRO-grid-map
