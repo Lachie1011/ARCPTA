@@ -11,9 +11,10 @@
 # any packages that have had be be installed outside of this list, 
 # should be added to this script.
 
-# Script version 0.3: 
+# Script version 0.4: 
 #    - Elevation mapping and Traversability packages included
 #    - Realsense-ros packages included and building 
+#    - Added functionality to pull down rosbags
 
 # TODO: Panoptic pipeline
 
@@ -56,7 +57,7 @@ git clone https://github.com/leggedrobotics/any_node.git
 
 # Building dependencies first - elevation mapping fails unless this is done
 cd ../ 
-catkin build 
+#catkin build 
 
 # Cloning elevation mapping and traversability estimation from forks
 cd src
@@ -67,3 +68,18 @@ git clone https://github.com/Lachie1011/traversability_estimation.git
 cd ../
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
 catkin build elevation_mapping elevation_mapping_demos traversability_estimation
+
+# Grabbing external data stored on google drive - optional 
+read -p "Do you want to download external data? <y/N>" prompt
+if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
+then
+    pip3 install gdown
+    export PATH="$HOME/.local/bin:$PATH" #  had to add bin to python path
+    cd ../
+    mkdir rosbags 
+    cd rosbags
+    gdown https://drive.google.com/file/d/1TOQ-mwWQ99SwDiZRuVhLLJEManJwJw4y/view?usp=share_link --fuzzy
+    unzip rosbags.zip
+else
+  exit 0
+fi
