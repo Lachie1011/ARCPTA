@@ -4,19 +4,18 @@
 # to install a traversability solution and should be installed in the top level
 # of this repository. i.e. /home/<USER>/ARCPTA/
 
-# It builds in conjunction with an existing and working realsense_ws that is
-# part of the robotic's clubs pipeline for the D455 stereo camera and hence 
-# assumes that the dependenices such as python3 and ROS noetic are already 
+# It assumes dependencies such as python3 and ROS noetic are already 
 # installed in the environment. 
 
 # NOTE: while this has been tested, dependency issues may still occur - 
-# any packaged that have had be be installed outside of this list, 
+# any packages that have had be be installed outside of this list, 
 # should be added to this script.
 
-# Script version 0.2 - Elevation mapping and Traversability packages included
+# Script version 0.3: 
+#    - Elevation mapping and Traversability packages included
+#    - Realsense-ros packages included and building 
 
 # TODO: Panoptic pipeline
-# TODO: Add realsense camera packages to script
 
 # Checking current working directory:
 DIR=$(pwd)
@@ -37,8 +36,14 @@ sudo apt-get update
 # Installing dependencies needed for build 
 sudo apt-get install ros-$ROS_DISTRO-catkin python3-catkin-tools 
 
+# Installing dependencies needed for realsense-ros pkg 
+sudo apt-get install ros-$ROS_DISTRO-realsense2-camera
+
 # Installing dependencies needed for the elevation mapping package:
 sudo apt install libpcl-dev libeigen3-dev ros-$ROS_DISTRO-grid-map
+
+# Repositories needed for realsense-ros
+git clone https://github.com/Lachie1011/realsense-ros.git
 
 # Repositories needed for elevation mapping:
 git clone https://github.com/ANYbotics/kindr.git
