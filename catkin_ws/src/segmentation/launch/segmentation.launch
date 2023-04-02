@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <!-- Segmentation node -->
+  <node pkg="segmentation" type="segmentation_node.py" name="segmentation" output="screen"/>
+
+</launch>
